@@ -1,0 +1,26 @@
+
+app root pw 
+   
+server how are you
+
+app user pw
+
+server check pw only
+server false  return
+
+server if ture
+server  pw/000000111
+
+
+app  pw/5
+
+server su
+
+
+
+
+
+app send user pw
+
+server io  or false
+

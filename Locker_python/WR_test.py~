@@ -1,0 +1,15 @@
+import serial
+
+ser = serial.Serial('/dev/ttyACM0',115200)
+check=""
+ser.write("write")
+print "w"
+check=ser.readline()
+print check
+ser.write("test")
+
+print "r"
+ser.write("read")
+t=ser.readline()
+print t
+
