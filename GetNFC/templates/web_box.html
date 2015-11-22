@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+        <head>
+                <title>box</title>
+                <meta charset='utf-8'>
+        </head>
+        <body>
+                <p>box</p>
+		<table border="1" width="50%" >
+		<tr>
+			<td>id</td>
+			<td>use </td>
+			<td>size</td>
+		</tr>
+		
+		{% for i in Boxs %}
+			<tr>
+				<td name='id'>{{ i.Box_id  }}</td>
+				<td name='use'>{{ i.Box_use  }}</td>
+				<td name='size'>{{ i.Box_size  }}</td>
+			</tr>
+		{% endfor %}
+		</table>
+		<form method='get'>
+			<p>io</p>	
+			<input type='text' name='id' >
+			<p>pw</p>
+			<input type='text' name='pw'>
+			<input type="submit" value='submit'>
+		</form>
+		<p >{{size}}</p>
+		<p name="t">{{t}}</p>
+         </body> 
+</html> 
